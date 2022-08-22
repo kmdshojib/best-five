@@ -37,6 +37,11 @@ height: 42px !important;
     color: #FF5E19;
 }
 
+.jumbo-smalltext{
+    height: 90px;
+    width: 735px;
+}
+
 /* card style */
 
 .card-body{
@@ -65,5 +70,6 @@ height: 42px !important;
 /* footer */
 
 .footer{
+    border-top: 0.2px solid #ffffff;
     height: 70px;
 }
