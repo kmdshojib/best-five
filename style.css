@@ -1,3 +1,9 @@
+/* global */
+li{
+    color: white;
+}
+
+/* header */
 .header{
     background: #000000;
     height: 481px;
@@ -7,10 +13,23 @@
 }
 
 /* card style */
+
 .card-body{
     background: #0D0D0D;
 }
 .select-btn{
     width: 221px;
     height: 42px;
+}
+.selected-player{
+    background: #0D0D0D;
+    width: 350px;
+    height: 300px;
+}
+/* budget section */
+
+.budget{
+    width: 350px;
+    height: 514px;
+    background: #0D0D0D;
 }
