@@ -58,16 +58,7 @@ function calcluatoTotal(){
     })
 }
 
-// document.getElementById("button").addEventListener("click", function(){  
-//     let player = document.getElementById("player-name").textContent
-//     createAndGetElement(player)
-// })
 
-// document.getElementById("button-2").addEventListener("click", function(){
-    
-//     let player = document.getElementById("player-2").textContent
-//     createElement(player)
-// })
 
 btn[0].addEventListener("click",function(e)  {
     if( ol.children.length <= 4 ){
@@ -87,6 +78,9 @@ btn[1].addEventListener("click",function ()  {
     if( ol.children.length <= 4 ){
         createAndGetElement(players[1].innerText)
         btn[1].disabled = true 
+
+        calcluatePerPlayer()
+        calcluatoTotal()
     }
     else{
         alert("You can't add any players limit exceeded")
@@ -98,6 +92,9 @@ btn[2].addEventListener("click",function ()  {
     if( ol.children.length <= 4 ){
         createAndGetElement(players[2].innerText)
         btn[2].disabled = true 
+
+        calcluatePerPlayer()
+        calcluatoTotal()
     }
     else{
         alert("You can't add any players limit exceeded")
@@ -109,6 +106,9 @@ btn[3].addEventListener("click",function ()  {
     if( ol.children.length <= 4 ){
         createAndGetElement(players[3].innerText)
         btn[3].disabled = true 
+
+        calcluatePerPlayer()
+        calcluatoTotal()
     }
     else{
         alert("You can't add any players limit exceeded")
@@ -119,6 +119,9 @@ btn[4].addEventListener("click",function ()  {
     if( ol.children.length <= 4 ){
         createAndGetElement(players[4].innerText)
         btn[4].disabled = true 
+
+        calcluatePerPlayer()
+        calcluatoTotal()
     }
     else{
         alert("You can't add any players limit exceeded")
@@ -129,6 +132,9 @@ btn[5].addEventListener("click",function ()  {
     if( ol.children.length <= 4 ){
         createAndGetElement(players[5].innerText)
         btn[5].disabled = true 
+
+        calcluatePerPlayer()
+        calcluatoTotal()
     }
     else{
         alert("You can't add any players limit exceeded")

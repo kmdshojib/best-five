@@ -1,8 +1,16 @@
 /* global */
+h5,p,li,label{
+    font-family: 'Manpore',sans-serif;
+}
 li{
     color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 25px;
 }
-
+.bg-body{
+    background: #2e2d2d !important;
+}
 /* header */
 .header{
     background: #000000;
@@ -16,6 +24,7 @@ li{
 
 .card-body{
     background: #0D0D0D;
+    width: 16rem !important;
 }
 .select-btn{
     width: 221px;
@@ -27,7 +36,9 @@ li{
     height: 300px;
 }
 /* budget section */
-
+.player-budget{
+    margin-top: 0;
+}
 .budget{
     width: 350px;
     height: 514px;
