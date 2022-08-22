@@ -35,7 +35,7 @@ function calcluatePerPlayer(){
         const value = inputForPlayers.value 
         const perPlayerCost = value * ol.childElementCount
         // adding per player and total ammount
-        spanForPerPlayer.innerText = perPlayerCost
+        spanForPerPlayer.innerText = `$ ${perPlayerCost}`
       
     })
 
@@ -54,7 +54,7 @@ function calcluatoTotal(){
         // console.table(typeof perPlayerCost, typeof valueForManager,typeof valueForCoach)
 
         const playerTotalCost = parseInt(perPlayerCost + valueForManager + valueForCoach)
-        spanForTotal.innerText = playerTotalCost
+        spanForTotal.innerText = `$ ${playerTotalCost}`
     })
 }
 

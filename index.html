@@ -89,34 +89,38 @@
                     </ol>
                 </div>
             </div>
-            <div class="budget me-4">
-                <h5 class="h5 text-white mt-3 text-center">Budget</h5>
+            <div class="budget me-4 mt-3">
+                <h5 class="h5 text-white pt-3 pb-3 text-center">Budget</h5>
                 <div>
-                    <label for="per-player" class="text-light">Your name :</label>
-                    <input id="per-player"  type="number">
-                    <button id="cal-btn" class="btn btn-primary btn-sm" type="button">Clacluate</button>
-                    <p class="text-light">Player Expence: <span id = "per-player-amount"> </span> </p>
+                    <label for="per-player" class="text-light px-3 pb-3">Per Player:</label>
+                    <input id="per-player" class="text-light" type="number">
+                    <button id="cal-btn" class="btn btn-primary mx-5 btn-block mt-2" type="button">Clacluate</button>
+                    <p class="text-light p-3">Player Expence : <span id = "per-player-amount"> </span> </p>
                 </div>
                 
                 <div>
-                    <div>
-                        <label for="manager" class="text-light">Manager :</label>
-                        <input id="manager" type="number">
+                    <div class="px-3 pb-5">
+                        <label for="manager" class="text-light">Manager : </label>
+                        <input id="manager" class="text-light" type="number">
                     </div>
 
-                    <div>
-                        <label for="coach" class="text-light">Coach :</label>
-                        <input id="coach"  type="number">
+                    <div class="px-3 pb-2">
+                        <label for="coach" class="text-light">Coach : </label>
+                        <input id="coach" class="text-light"  type="number">
                     </div>
     
-                    <button id="cal-btn-total" class="btn btn-primary btn-sm" type="button">Clacluate Total</button>
+                    <button id="cal-btn-total" class="btn btn-primary mx-5 mb-3 mt-3 " type="button">Clacluate Total</button>
                 </div>
-                <p class="text-light">Total: <span id = "total-amount"> </span> </p>
+                <p class="text-light px-3">Total: <span id = "total-amount"> </span> </p>
             </div>
        </div>
        
     </div>
     
+    <!-- footer -->
+    <div class="footer mt-5">
+        <h5 class="text-center text-light">Copyright @ 2022 All Rights Reserved.</h5>
+    </div>
     <script src="/script.js" type="text/javascript"></script>
 </body>
 </html>

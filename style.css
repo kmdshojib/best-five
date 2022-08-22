@@ -2,14 +2,31 @@
 h5,p,li,label{
     font-family: 'Manpore',sans-serif;
 }
+body{
+    background: #2e2d2d !important;
+}
 li{
     color: white;
     font-size: 18px;
     margin-bottom: 15px;
     margin-left: 25px;
 }
+input{
+    background: #0D0D0D;
+    height: 50px;
+    border: 1px solid #ffffff;
+}
+button{
+    width: 221px !important;
+height: 42px !important;
+}
 .bg-body{
     background: #2e2d2d !important;
+}
+#total-amount{
+    color: #FF5E19;
+    font-weight: bold !important;
+    margin-left: 150px;
 }
 /* header */
 .header{
@@ -43,4 +60,10 @@ li{
     width: 350px;
     height: 514px;
     background: #0D0D0D;
+}
+
+/* footer */
+
+.footer{
+    height: 70px;
 }
