@@ -41,6 +41,7 @@ function calcluatePerPlayer(){
 
   
 }
+// clacluate total cost forplayers and coach
 
 function calcluatoTotal(){
     calcluateTotalBtn.addEventListener('click',() =>{
@@ -53,7 +54,7 @@ function calcluatoTotal(){
 
         // console.table(typeof perPlayerCost, typeof valueForManager,typeof valueForCoach)
 
-        const playerTotalCost = parseInt(perPlayerCost + valueForManager + valueForCoach)
+        const playerTotalCost = perPlayerCost + valueForManager + valueForCoach
         spanForTotal.innerText = `$ ${playerTotalCost}`
     })
 }
@@ -70,7 +71,7 @@ btn[0].addEventListener("click",function(e)  {
         calcluatoTotal()
     }
     else{
-        alert("You can't add any players limit exceeded")
+        alert("You can't add any players limit exceeded. You can only select Five players")
     }
 })
 
@@ -83,7 +84,7 @@ btn[1].addEventListener("click",function ()  {
         calcluatoTotal()
     }
     else{
-        alert("You can't add any players limit exceeded")
+        alert("You can't add any players limit exceeded. You can only select Five players")
     }
  
 })
@@ -97,7 +98,7 @@ btn[2].addEventListener("click",function ()  {
         calcluatoTotal()
     }
     else{
-        alert("You can't add any players limit exceeded")
+        alert("You can't add any players limit exceeded. You can only select Five players")
     }
 
 })
@@ -111,7 +112,7 @@ btn[3].addEventListener("click",function ()  {
         calcluatoTotal()
     }
     else{
-        alert("You can't add any players limit exceeded")
+        alert("You can't add any players limit exceeded. You can only select Five players")
     }
 })
 
@@ -124,7 +125,7 @@ btn[4].addEventListener("click",function ()  {
         calcluatoTotal()
     }
     else{
-        alert("You can't add any players limit exceeded")
+        alert("You can't add any players limit exceeded.You can only select Five players")
     }
 })
 
@@ -137,6 +138,6 @@ btn[5].addEventListener("click",function ()  {
         calcluatoTotal()
     }
     else{
-        alert("You can't add any players limit exceeded")
+        alert("You can't add any players limit exceeded.You can only select Five players")
     }
 })

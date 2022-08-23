@@ -30,7 +30,9 @@ height: 42px !important;
 }
 /* header */
 .header{
-    background: #000000;
+    background:url(/assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 481px;
 }
 .title{
